@@ -44,7 +44,7 @@ Linux dominates cloud intrastructure because it is free, developers prefers it t
 
 The OS Stack
 
-The application decides it needs to save a file. It does not talk to the hardware directly — it calls a system library, a pre-built tool the OS provides. The system library passes the request to the operating system, which checks whether the application has permission to write files. The OS passes the instruction to the kernel, which handles the actual technical communication with the hardware. The hardware — specifically the storage drive — physically writes the data.
+The application decides it needs to save a file. It does not talk to the hardware directly — it calls a system library, a pre-built tool the OS provides. The system library passes the request to the operating system, which checks whether the application has permission to write files. The OS passes the instruction to the kernel, which handles the actual technical communication with the hardware. Kernel manages memory allocation, it controls which processes get CPU time, it is the reason some operations require special permissions. The hardware — specifically the storage drive — physically writes the data.
 
 The Shared Responsibility Model — OS Layer
 
@@ -62,7 +62,8 @@ An application built on ubuntu might fails on amazon linux due to different dist
 
 Why This Makes Me a Better Engineer
 
-Learnt alot and most of my why question are getting abnswered with the lessons.
+Learnt alot and most of my why question are getting abnswered with the lessons. I know more about operating systems which strenghthens my judgement about CPU, storage, kernel in troubleshooting. When an application is slow now, i know how to navigate in my troubleshooting steps by answering the right questions. 
+
 
 [x] Module 1 — How Computers Actually Work
 [x] Module 2 — Operating Systems
