@@ -31,4 +31,41 @@ AWS is responsible for the hardware and setup of the clous infrastructure. If an
 
 The concepts of how computer works gives me a background of the origin and what it does accordingly.
 
+## Module 2 — Operating Systems
+
+
+What Is an Operating System? The operating system is a software, rather it is in charge of managaing all processes in the computer, The operating system determines what is allocated to the processes of an application and how it process its data.
+
+The Kernel - The kernel is the one which manages memory allocation
+
+Why Linux Dominates Cloud Infrastructure
+
+Linux dominates cloud intrastructure because it is free, developers prefers it than spending thousands on a windows operating system, it is opensource, it is lighweight and can be left without a restart for a long time
+
+The OS Stack
+
+The application decides it needs to save a file. It does not talk to the hardware directly — it calls a system library, a pre-built tool the OS provides. The system library passes the request to the operating system, which checks whether the application has permission to write files. The OS passes the instruction to the kernel, which handles the actual technical communication with the hardware. The hardware — specifically the storage drive — physically writes the data.
+
+The Shared Responsibility Model — OS Layer
+
+Who is responsible for the OS on a cloud server — 
+The customer is responsible the operating system on the cloud server. AWS is only responsible for the hardware components. Example is the situation with a landlord and tenant. The landlord is responsible for the building, the tdenant is responsible for its property within that building. If the tenant leaves his or her door open and get robbed the landlord will not be responsible for the theft. Also the type of furniture used by the tenant is not a concern with the landlord.
+
+
+Real Scenario — OS Mismatch
+
+Describe what happens when an application built on Ubuntu is deployed on Amazon Linux, why it fails, and how you would fix it.
+
+An application built on ubuntu might fails on amazon linux due to different distros used. To fix it, first is to confirm what the application is really build on either ubuntu or amazon linux and if it supports it. Afterwards, either configure it to work with amazon linux or change the code
+
+
+
+Why This Makes Me a Better Engineer
+
+Learnt alot and most of my why question are getting abnswered with the lessons.
+
+[x] Module 1 — How Computers Actually Work
+[x] Module 2 — Operating Systems
+
+
 
