@@ -68,5 +68,45 @@ Learnt alot and most of my why question are getting abnswered with the lessons. 
 [x] Module 1 — How Computers Actually Work
 [x] Module 2 — Operating Systems
 
+Module 3 — The Command Line
+What Is the Command Line? Command line is a terminal used to pass instructions or communicate with application servers
 
+The command line exist because it is fast, efficient and manual. Engineers prefer it over graphical user interface becasue not only does it diagnose, issues can also be resolved there also. It also hasndles automation. 
+
+An engineer can run diagnostics, detect issues automatically, solve issues and also automate commands.
+
+The Commands I Now Know
+
+For each command below write one sentence explaining 
+what it does and when you would use it on the job:
+pwd - print working directory it is to know exactly where i am and what i am working on. ls -la - this is to list the files in the directory and it also shows hidden files, cd - change directory, this is to change from one working directory to the other. cat - this is used to read a file. touch - touch is used to create a file. mkdir -p -  this is used to create a durectory and its sub folders, cp - this is used to copy a file and it is always necessary to use it when commiting a major change, always duplicate the file before proceeding, mv - this is used to move a file or rename a folder, rm -rf - this is used to delete, it is iorreversable and should be used with care, tail -f - this is used to read log in real time as they are written, often used to see the error as they appear or occur, grep - this is used to fetch a particular pattern in a log file e.g ERROR, FATAL, history - this is used to check the history of all command that has been entered on the terminal, whoami - this is used to checked the user currently working on, engineers often log in as different users, this enable you know the exact user you are logged as, chmod - change mode, this is used to grant permission, chown - change owner, it is used to change the owner or permissions of a file or folder, sudo - this is the root user, it overrides permissions.
+
+Permissions and Least Privilege
+
+Permission string system isa system that ensures permission or task is only granted to an emp0loyee with the specific task assisgned to do. It is necessary as if every employee has all permissions and an employee is compromised it can allow the enter system to be compromise through the user. 
+
+The Pipe
+
+The pipe is a connector that takes the result of an output and feeds it in the nect input. tail -f hpy.log | grep "ERROR" > error.txt
+
+this takes real time logs and search for ERROR and save the logs in error.txt file
+
+Real Scenario — Log Investigation
+
+Describe the workflow you would follow if a developer told you the application was throwing errors. 
+Which commands, in which order, and why.
+
+tail -f - this shows me the logs in real time
+grep - to grep the error
+
+What I Built in This Lab
+
+Link to your linux-lab-cloudproject repository. https://github.com/ajagunnatemitope/linux-lab-cloudproject
+
+I have learnt different linux commands, i made a directory, move files in it and also searched for errors. I have learnt a lot of things which gives me an edge from when i first came. 
+Progress Tracker
+
+[x] Module 1 — How Computers Actually Work
+[x] Module 2 — Operating Systems
+[x] Module 3 — The Command Line
 
